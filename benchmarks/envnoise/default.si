@@ -1,0 +1,28 @@
+val preprocess_data = fun entry -> List.hd(List.tl(entry)) in
+
+val step = fun (obs, (xs,invq,invr)) ->
+  let x_i = List.hd(xs) in
+
+  let h = 2. in
+  let f = 1.001 in
+  
+  let x <- gaussian(f * x_i,1/invq) in
+  let env <- bernoulli(0.0001) in
+  let other <- beta(1,1) in
+  let () = if env then
+      observe(gaussian(h * x, (1/invr) + 1000*other),obs) 
+    else
+      observe(gaussian(h * x,1/invr),obs)
+  in 
+  let () = resample() in
+  (cons(x, xs),invq,invr)
+in
+
+let data = List.map(preprocess_data, File.read("programs/data/data.csv")) in
+
+let invq <- gamma(1.,1.) in
+let invr <- gamma(1.,1.) in
+
+let (xs,invq,invr) = 
+  fold(step,data,([0.],invq,invr)) in
+(List.tl(List.rev(xs)),1/invq,1/invr)

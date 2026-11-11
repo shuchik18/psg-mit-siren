@@ -1,0 +1,52 @@
+val preprocess_data = fun entry -> List.hd(List.tl(List.tl(entry))) in
+
+val s_transition = fun (p) ->
+  let s <- bernoulli(p) in
+  s
+in
+
+val step = fun (yobs, ((trans_prob0, trans_prob1, obs_noise0, obs_noise1), ss, xs)) ->
+  let prev_st = List.hd(ss) in
+  let prev_xt = List.hd(xs) in
+
+  (* p(s_t | s_{t-1}) *)
+  let trans_prob = if prev_st then
+    trans_prob1
+  else
+    trans_prob0
+  in
+  let st = s_transition(trans_prob) in
+
+  (* p(x_t | x_{t-1}, s_t) *)
+  let x1 <- gaussian(prev_xt, 1.2429) in
+  let x0 <- gaussian(prev_xt, 0.02248262) in
+  let xt = if st then
+    x1
+  else
+    x0
+  in
+
+  (* p(z_t | x_t, s_t) *)
+  let var = if st then obs_noise1 else obs_noise0 in
+
+  let () = observe(gaussian(xt, var), yobs) in
+
+  let () = resample() in
+  ((trans_prob0, trans_prob1, obs_noise0, obs_noise1), cons(st, ss), cons(xt, xs))
+in
+
+(* observations *)
+let data = List.map(preprocess_data, File.read("programs/data/processed_data.csv")) in
+
+let trans_prob0 <- beta(1., 1.) in
+let trans_prob1 <- beta(1., 1.) in
+
+let inv_obs_noise0 <- gamma(1., 1.) in
+let inv_obs_noise1 <- gamma(1., 1.) in
+let obs_noise0 = 1. / inv_obs_noise0 in
+let obs_noise1 = 1. / inv_obs_noise1 in
+
+let ((trans_prob0, trans_prob1, obs_noise0, obs_noise1), ss, xs) = fold(step, data, ((trans_prob0, trans_prob1, obs_noise0, obs_noise1), [false], [0])) in
+let xs = List.tl(List.rev(xs)) in
+let ss = List.tl(List.rev(ss)) in
+(trans_prob0, trans_prob1, obs_noise0, obs_noise1, ss, xs)

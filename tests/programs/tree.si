@@ -1,0 +1,14 @@
+
+val step = fun ((obs_a, obs_b), (a, bs)) ->
+  let b <- gaussian(a, 100) in
+  let () = observe(gaussian(b, 1), obs_b) in
+  let () = observe(gaussian(a, 1), obs_a) in
+  let () = resample() in
+  (a, cons(b, bs))
+in
+
+let data = [(1, 2), (3, 4), (5, 6)] in
+
+let a <- gaussian(0, 100) in
+let (a, bs) = fold(step, data, (a, [])) in
+(a, List.rev(bs))

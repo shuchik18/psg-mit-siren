@@ -1,0 +1,28 @@
+val preprocess_data = fun entry -> List.hd(List.tl(entry)) in
+
+val step = fun (yobs, (first, outlier_prob, xs)) ->
+  let prev_xt = List.hd(xs) in
+
+  let xt_mu = if first then 0. else prev_xt in
+  let xt_var = if first then 2500. else 1. in
+
+  let PLACEHOLDER xt <- gaussian(xt_mu, xt_var) in
+  let PLACEHOLDER is_outlier <- bernoulli(outlier_prob) in
+  let () = if is_outlier then
+    observe(student_t(xt, 1, 1.1), yobs)
+  else
+    observe(gaussian(xt, 1), yobs)
+  in
+
+  let () = resample() in
+
+  (false, outlier_prob, cons(xt, xs))
+in
+
+(* observations *)
+let data = List.map(preprocess_data, File.read("data/processed_data.csv")) in
+
+let PLACEHOLDER outlier_prob <- beta(100., 1000.) in
+let (_, outlier_prob, xs) = fold(step, data, (true, outlier_prob, [0.])) in
+let xs = List.tl(List.rev(xs)) in
+(outlier_prob, xs)

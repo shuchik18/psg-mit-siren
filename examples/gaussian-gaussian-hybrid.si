@@ -1,0 +1,8 @@
+let input = 0 in
+let sample b <- bernoulli(0.5) in
+let x <- gaussian(0,10) in
+let () = if b then
+  observe(gaussian(x,1), input)
+else
+  observe(gaussian(0,100), input)
+in x

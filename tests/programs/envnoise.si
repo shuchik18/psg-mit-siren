@@ -1,0 +1,22 @@
+val preprocess_data = fun entry -> List.hd(entry) in
+
+val step = fun (obs, (x_i,invq,invr)) ->
+  let sample x <- gaussian(x_i,1/invq) in
+  let sample env <- bernoulli(0.0001) in
+  let () = if env then
+      let sample other <- gamma(1., 1.) in
+      observe(gaussian(x_i, (1/invr) + (1/other)),obs) 
+    else
+      observe(gaussian(x_i,1/invr),obs)
+  in 
+  (x,invq,invr)
+in
+let symbolic invq <- gamma(1.,1.) in
+let sample invr <- gamma(1.,1.) in
+let sample x0 <- gaussian(0.,1.) in
+
+let data = [0.1, 0.2, 0.3, 10, 0.5] in
+
+let (x,invq,invr) = 
+  fold(step,data,(x0,invq,invr)) in
+(x,1/invq,1/invr)

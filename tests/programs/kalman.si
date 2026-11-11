@@ -1,0 +1,23 @@
+(* 
+  inference strategy
+  mu1 - approx
+  mu2 - approx
+  switch - approx
+  theta - exact
+*)
+
+
+val make_observations = fun (yobs, xs) ->
+  let pre_x = List.hd(xs) in
+  let sample x <- gaussian(pre_x, 1.) in
+  let () = observe(gaussian(x, 1.), yobs) in
+
+  let () = resample() in
+  cons(x, xs)
+in
+
+let data = List.range(1, 101) in
+
+let x = 0 in
+let xs = fold(make_observations, data, [x]) in
+List.rev(xs)

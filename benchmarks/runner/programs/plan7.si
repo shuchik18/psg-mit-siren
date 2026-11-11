@@ -1,0 +1,52 @@
+(*
+sx - symbolic
+sy - sample
+x - sample
+y - sample
+*)
+
+val preprocess_data = fun entry ->
+  (* sx,sy,x,y,sx_obs,sy_obs,a_obs *)
+  let sx_obs = List.hd(List.tl(List.tl(List.tl(List.tl(entry))))) in
+  let sy_obs = List.hd(List.tl(List.tl(List.tl(List.tl(List.tl(entry)))))) in
+  let a_obs = List.hd(List.tl(List.tl(List.tl(List.tl(List.tl(List.tl(entry))))))) in
+  (sx_obs, sy_obs, a_obs)
+in
+
+val alt = fun (x, y) ->
+  if 50 < y then 
+    10 - 0.01 * x * x + 0.0001 * x * x * x
+  else 
+    x + 0.1
+in
+
+val step = fun ((sx_obs, sy_obs, a_obs), (sx_l, sy_l, x_l, y_l)) ->
+  let sx_i = List.hd(sx_l) in
+  let sy_i = List.hd(sy_l) in
+  let x_i = List.hd(x_l) in
+  let y_i = List.hd(y_l) in
+
+  let symbolic sx <- gaussian(sx_i, 0.1) in
+  let sample sy <- gaussian(sy_i, 0.1) in
+  let sample x <- gaussian(x_i + sx_i, 1) in
+  let sample y <- gaussian(y_i + sy_i, 1) in
+
+  let a = alt(x, y) in
+
+  let () = observe(gaussian(sx, 1), sx_obs) in
+  let () = observe(gaussian(sy, 1), sy_obs) in
+  let () = observe(gaussian(a, 1), a_obs) in
+
+  let () = resample() in
+  (cons(sx, sx_l), cons(sy, sy_l), cons(x, x_l), cons(y, y_l))
+in
+
+let data = List.map(preprocess_data, File.read("data/processed_data.csv")) in
+
+let (sx_l, sy_l, x_l, y_l) = fold(step, data, ([0], [0], [0.1], [0.1])) in
+let sx_l = List.tl(List.rev(sx_l)) in
+let sy_l = List.tl(List.rev(sy_l)) in
+let x_l = List.tl(List.rev(x_l)) in
+let y_l = List.tl(List.rev(y_l)) in
+(sx_l, sy_l, x_l, y_l)
+

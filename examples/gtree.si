@@ -1,0 +1,5 @@
+let a <- gaussian(0, 100) in
+let b <- gaussian(a, 10) in
+let () = observe(gaussian(b, 1000), 2.3) in
+let () = observe(gaussian(a, 1000), -55) in
+a

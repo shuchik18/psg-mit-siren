@@ -1,0 +1,17 @@
+val make_obs = fun(obs,x_pre) ->
+    let sample out <- bernoulli(0.9) in
+    if out then
+      let x <- gaussian(x_pre, 1) in
+      let () = observe(gaussian(x,1),obs) in
+      x
+    else
+      let x <- gaussian(x_pre, 1) in
+      let () = observe(gaussian(0,100),obs) in
+      x
+in
+
+let data = List.range(1, 10) in
+
+let x_init <- gaussian(0,100) in
+let xs = fold(make_obs,data,x_init) in
+xs

@@ -1,0 +1,1321 @@
+example,plan_id,annotations,handler,method,particles,repeat,seed,runtime_seconds,variable,metric,error,reference_scale,reference_kind,reference_particles,status,message
+aircraft,aircraft.si,original example,smc,ssi,1,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,1,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,1,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,1,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,1,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,10,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,10,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,10,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,10,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,10,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,100,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,100,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,100,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,100,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,100,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,1000,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,1000,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,1000,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,1000,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+aircraft,aircraft.si,original example,smc,ssi,1000,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+coin,coin.si,original example,smc,ssi,1,0,0,0.0009081363677978516,output_0,mse,3.0814879110195774e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,1,1,1,0.0009069442749023438,output_0,mse,3.0814879110195774e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,1,2,2,0.0015139579772949219,output_0,mse,3.0814879110195774e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,1,3,3,0.0009520053863525391,output_0,mse,3.0814879110195774e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,1,4,4,0.0009920597076416016,output_0,mse,3.0814879110195774e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,10,0,0,0.006153106689453125,output_0,mse,4.437342591868191e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,10,1,1,0.006102085113525391,output_0,mse,4.437342591868191e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,10,2,2,0.0070400238037109375,output_0,mse,4.437342591868191e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,10,3,3,0.008468151092529297,output_0,mse,4.437342591868191e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,10,4,4,0.007046937942504883,output_0,mse,4.437342591868191e-31,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,100,0,0,0.08590888977050781,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,100,1,1,0.07503199577331543,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,100,2,2,0.058007001876831055,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,100,3,3,0.05269217491149902,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,100,4,4,0.06788802146911621,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,1000,0,0,0.5260419845581055,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,1000,1,1,0.6411430835723877,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,1000,2,2,0.528386116027832,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,1000,3,3,0.5668320655822754,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+coin,coin.si,original example,smc,ssi,1000,4,4,0.5630130767822266,output_0,mse,0.0,0.8000000000000006,empirical_measured_runs,1000,ok,
+example,example.si,original example,smc,ssi,1,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,1,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,1,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,1,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,1,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,10,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,10,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,10,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,10,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,10,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,100,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,100,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,100,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,100,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,100,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,1000,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,1000,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,1000,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,1000,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+example,example.si,original example,smc,ssi,1000,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1,0,0,0.0004608631134033203,output_0,mse,3.1554436208840472e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1,1,1,0.00044274330139160156,output_0,mse,3.1554436208840472e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1,2,2,0.0004639625549316406,output_0,mse,3.1554436208840472e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1,3,3,0.00044083595275878906,output_0,mse,3.1554436208840472e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1,4,4,0.00043392181396484375,output_0,mse,3.1554436208840472e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,10,0,0,0.002054929733276367,output_0,mse,4.930380657631324e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,10,1,1,0.0018229484558105469,output_0,mse,4.930380657631324e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,10,2,2,0.0021829605102539062,output_0,mse,4.930380657631324e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,10,3,3,0.001990795135498047,output_0,mse,4.930380657631324e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,10,4,4,0.0020589828491210938,output_0,mse,4.930380657631324e-30,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,100,0,0,0.01654791831970215,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,100,1,1,0.019375085830688477,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,100,2,2,0.019099950790405273,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,100,3,3,0.016233205795288086,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,100,4,4,0.020998001098632812,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1000,0,0,0.20925331115722656,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1000,1,1,0.15250205993652344,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1000,2,2,0.1606762409210205,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1000,3,3,0.15713882446289062,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian,gaussian-gaussian.si,original example,smc,ssi,1000,4,4,0.16790318489074707,output_0,mse,0.0,2.727272727272729,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1,0,0,0.0005018711090087891,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1,1,1,0.0005230903625488281,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1,2,2,0.00042510032653808594,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1,3,3,0.0004200935363769531,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1,4,4,0.0006518363952636719,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,10,0,0,0.002537250518798828,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,10,1,1,0.0030608177185058594,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,10,2,2,0.0016298294067382812,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,10,3,3,0.0018322467803955078,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,10,4,4,0.0030431747436523438,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,100,0,0,0.03518486022949219,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,100,1,1,0.033660173416137695,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,100,2,2,0.01306605339050293,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,100,3,3,0.013882875442504883,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,100,4,4,0.02545309066772461,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1000,0,0,0.21773529052734375,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1000,1,1,0.2098081111907959,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1000,2,2,0.15121984481811523,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1000,3,3,0.19191694259643555,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gaussian-gaussian-hybrid,gaussian-gaussian-hybrid.si,original example,smc,ssi,1000,4,4,0.20244789123535156,output_0,mse,0.0,1.0,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1,0,0,0.0007758140563964844,output_0,mse,7.099748146989106e-30,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1,1,1,0.0007679462432861328,output_0,mse,7.099748146989106e-30,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1,2,2,0.0008311271667480469,output_0,mse,7.099748146989106e-30,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1,3,3,0.0009400844573974609,output_0,mse,7.099748146989106e-30,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1,4,4,0.0007431507110595703,output_0,mse,7.099748146989106e-30,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,10,0,0,0.004026174545288086,output_0,mse,1.262177448353619e-29,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,10,1,1,0.0050280094146728516,output_0,mse,1.262177448353619e-29,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,10,2,2,0.005146980285644531,output_0,mse,1.262177448353619e-29,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,10,3,3,0.004662036895751953,output_0,mse,1.262177448353619e-29,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,10,4,4,0.013411760330200195,output_0,mse,1.262177448353619e-29,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,100,0,0,0.05811929702758789,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,100,1,1,0.05514693260192871,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,100,2,2,0.05380988121032715,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,100,3,3,0.0554959774017334,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,100,4,4,0.051177024841308594,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1000,0,0,0.38686180114746094,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1000,1,1,0.40714192390441895,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1000,2,2,0.42327308654785156,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1000,3,3,0.39730381965637207,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+gtree,gtree.si,original example,smc,ssi,1000,4,4,0.42102789878845215,output_0,mse,0.0,4.3971924029727525,empirical_measured_runs,1000,ok,
+invgamma,invgamma.si,original example,smc,ssi,1,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,1,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,1,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,1,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,1,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,10,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,10,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,10,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,10,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,10,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,100,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,100,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,100,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,100,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,100,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,1000,0,0,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,1000,1,1,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,1000,2,2,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,1000,3,3,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+invgamma,invgamma.si,original example,smc,ssi,1000,4,4,,,mse,,,,,failed,"Traceback (most recent call last):
+  File ""<frozen runpy>"", line 198, in _run_module_as_main
+  File ""<frozen runpy>"", line 88, in _run_code
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 140, in <module>
+    main()
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/siren.py"", line 51, in main
+    program = parser.parse_program(f.read())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 281, in parse_program
+    expression = _make_expression(parse_tree.children[-1])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 217, in _make_expression
+    return _make_ops(x.children[0])
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/skundaliya/Documents/Originial Siren/siren-main/siren/parser.py"", line 195, in _make_ops
+    raise ValueError(x.data)
+ValueError: ops
+"
+kalman,kalman.si,original example,smc,ssi,1,0,0,0.0023119449615478516,output_0,mse,2.8398992587956425e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,1,1,1,0.0024819374084472656,output_0,mse,2.8398992587956425e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,1,2,2,0.0022459030151367188,output_0,mse,2.8398992587956425e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,1,3,3,0.00234222412109375,output_0,mse,2.8398992587956425e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,1,4,4,0.0022699832916259766,output_0,mse,2.8398992587956425e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,10,0,0,0.026640892028808594,output_0,mse,5.048709793414476e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,10,1,1,0.02533888816833496,output_0,mse,5.048709793414476e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,10,2,2,0.021523237228393555,output_0,mse,5.048709793414476e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,10,3,3,0.02180194854736328,output_0,mse,5.048709793414476e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,10,4,4,0.02223372459411621,output_0,mse,5.048709793414476e-29,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,100,0,0,0.19068384170532227,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,100,1,1,0.2082512378692627,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,100,2,2,0.20047521591186523,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,100,3,3,0.19371771812438965,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,100,4,4,0.2213759422302246,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,1000,0,0,1.7663722038269043,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,1000,1,1,1.786837100982666,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,1000,2,2,1.6904869079589844,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,1000,3,3,1.7644462585449219,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+kalman,kalman.si,original example,smc,ssi,1000,4,4,1.7730190753936768,output_0,mse,0.0,8.382346780612464,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1,0,0,0.002377033233642578,output_0,mse,3.7893333201517917e-06,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1,1,1,0.0034379959106445312,output_0,mse,6.223134217334286e-07,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1,2,2,0.0027692317962646484,output_0,mse,1.150410034775373e-08,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1,3,3,0.007397890090942383,output_0,mse,1.150410034775373e-08,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1,4,4,0.0024132728576660156,output_0,mse,1.8831164315865324e-06,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,10,0,0,0.027116060256958008,output_0,mse,3.7893333201587078e-06,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,10,1,1,0.047209978103637695,output_0,mse,6.22313421730626e-07,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,10,2,2,0.03723907470703125,output_0,mse,1.1504100348134784e-08,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,10,3,3,0.040280818939208984,output_0,mse,1.1504100348134784e-08,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,10,4,4,0.036112070083618164,output_0,mse,1.8831164315816571e-06,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,100,0,0,0.25002098083496094,output_0,mse,3.7893333201310445e-06,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,100,1,1,0.22642040252685547,output_0,mse,6.223134217418366e-07,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,100,2,2,0.23375201225280762,output_0,mse,1.1504100346610568e-08,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,100,3,3,0.22899317741394043,output_0,mse,1.1504100346610568e-08,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,100,4,4,0.2931480407714844,output_0,mse,1.8831164316011584e-06,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1000,0,0,1.8689191341400146,output_0,mse,3.7893333201310445e-06,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1000,1,1,1.8717939853668213,output_0,mse,6.223134217418366e-07,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1000,2,2,1.9417328834533691,output_0,mse,1.1504100346610568e-08,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1000,3,3,1.9352569580078125,output_0,mse,1.1504100346610568e-08,8.382454037781672,empirical_measured_runs,1000,ok,
+outlier,outlier.si,original example,smc,ssi,1000,4,4,1.8879988193511963,output_0,mse,1.8831164316011584e-06,8.382454037781672,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,0,0,0.004705905914306641,output_0,mse,0.006171570675870959,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,0,0,0.004705905914306641,output_1,mse,0.0027199039550087323,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,0,0,0.004705905914306641,output_2,mse,0.8238079697085885,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,0,0,0.004705905914306641,output_3,mse,0.7284010881291357,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,1,1,0.005392313003540039,output_0,mse,0.04210731393958873,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,1,1,0.005392313003540039,output_1,mse,0.0014060166374501356,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,1,1,0.005392313003540039,output_2,mse,2.4174147346609827,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,1,1,0.005392313003540039,output_3,mse,0.755727234323251,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,2,2,0.005307912826538086,output_0,mse,0.063276349962615,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,2,2,0.005307912826538086,output_1,mse,0.0035761025277883393,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,2,2,0.005307912826538086,output_2,mse,2.051467973526928,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,2,2,0.005307912826538086,output_3,mse,2.108840298270742,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,3,3,0.006132841110229492,output_0,mse,0.005103256960858165,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,3,3,0.006132841110229492,output_1,mse,0.0027906013671552287,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,3,3,0.006132841110229492,output_2,mse,6.160648490611843,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,3,3,0.006132841110229492,output_3,mse,5.450604756832928,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,4,4,0.00536799430847168,output_0,mse,0.00407107616395222,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,4,4,0.00536799430847168,output_1,mse,0.002891634310304059,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,4,4,0.00536799430847168,output_2,mse,1.0532107203424013,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1,4,4,0.00536799430847168,output_3,mse,1.2769752974350035,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,0,0,0.03907418251037598,output_0,mse,0.0014271236958855148,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,0,0,0.03907418251037598,output_1,mse,0.0006152206837048761,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,0,0,0.03907418251037598,output_2,mse,0.10399434267805849,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,0,0,0.03907418251037598,output_3,mse,0.5423937280936931,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,1,1,0.047000885009765625,output_0,mse,0.006479332932302482,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,1,1,0.047000885009765625,output_1,mse,0.00101878133916908,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,1,1,0.047000885009765625,output_2,mse,0.8207502375830341,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,1,1,0.047000885009765625,output_3,mse,0.7893752843265497,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,2,2,0.060968875885009766,output_0,mse,0.0016599397488318683,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,2,2,0.060968875885009766,output_1,mse,0.0074389447560815935,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,2,2,0.060968875885009766,output_2,mse,0.05407002240457352,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,2,2,0.060968875885009766,output_3,mse,1.9700442263395326,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,3,3,0.03459501266479492,output_0,mse,0.008111273923657536,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,3,3,0.03459501266479492,output_1,mse,0.005535615316853153,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,3,3,0.03459501266479492,output_2,mse,2.3040984870726007,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,3,3,0.03459501266479492,output_3,mse,3.0572201141177504,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,4,4,0.03482484817504883,output_0,mse,0.00012866685126420243,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,4,4,0.03482484817504883,output_1,mse,0.008689823601052422,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,4,4,0.03482484817504883,output_2,mse,0.8183158194828006,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,10,4,4,0.03482484817504883,output_3,mse,1.1982133619583155,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,0,0,0.3542790412902832,output_0,mse,0.0004180754503887311,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,0,0,0.3542790412902832,output_1,mse,0.0009421045542767512,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,0,0,0.3542790412902832,output_2,mse,0.07033966360786231,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,0,0,0.3542790412902832,output_3,mse,0.5148891032958817,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,1,1,0.35740208625793457,output_0,mse,0.0023838751071623247,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,1,1,0.35740208625793457,output_1,mse,0.000997399926338557,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,1,1,0.35740208625793457,output_2,mse,0.24410962046077953,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,1,1,0.35740208625793457,output_3,mse,2.3695653885985224,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,2,2,0.3437800407409668,output_0,mse,0.0019992792871540528,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,2,2,0.3437800407409668,output_1,mse,0.010953498547061121,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,2,2,0.3437800407409668,output_2,mse,0.06254777399230842,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,2,2,0.3437800407409668,output_3,mse,2.6127765206866256,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,3,3,0.364454984664917,output_0,mse,0.009525563487711454,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,3,3,0.364454984664917,output_1,mse,0.002466287519277412,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,3,3,0.364454984664917,output_2,mse,1.0115283112134374,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,3,3,0.364454984664917,output_3,mse,3.1345961974033996,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,4,4,0.34738993644714355,output_0,mse,0.000493427193496997,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,4,4,0.34738993644714355,output_1,mse,0.00169055708919632,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,4,4,0.34738993644714355,output_2,mse,0.9947594283218556,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,100,4,4,0.34738993644714355,output_3,mse,0.6781965302978966,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,0,0,3.680217742919922,output_0,mse,0.0003864018681951916,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,0,0,3.680217742919922,output_1,mse,0.0008918869518459537,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,0,0,3.680217742919922,output_2,mse,0.060771222697475605,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,0,0,3.680217742919922,output_3,mse,0.4314164960122974,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,1,1,3.6617531776428223,output_0,mse,0.0011324999813559057,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,1,1,3.6617531776428223,output_1,mse,0.0010107240663046158,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,1,1,3.6617531776428223,output_2,mse,0.12846340084222685,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,1,1,3.6617531776428223,output_3,mse,2.7713408223730536,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,2,2,3.638099193572998,output_0,mse,0.002461267188948843,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,2,2,3.638099193572998,output_1,mse,0.012651812453482906,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,2,2,3.638099193572998,output_2,mse,0.07695222473083721,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,2,2,3.638099193572998,output_3,mse,2.3687258612697515,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,3,3,3.6300201416015625,output_0,mse,0.008102168280759643,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,3,3,3.6300201416015625,output_1,mse,0.0017411638264523618,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,3,3,3.6300201416015625,output_2,mse,0.9500331814540726,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,3,3,3.6300201416015625,output_3,mse,3.3526432471041065,0.761973187721139,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,4,4,3.502519130706787,output_0,mse,0.0004886939106140347,0.2791290953098939,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,4,4,3.502519130706787,output_1,mse,0.0034842149423403392,0.08721807964927863,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,4,4,3.502519130706787,output_2,mse,0.853196854925103,0.7161920933336332,empirical_measured_runs,1000,ok,
+runner,runner.si,original example,smc,ssi,1000,4,4,3.502519130706787,output_3,mse,0.8353786226607125,0.761973187721139,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,0,0,0.0012879371643066406,output_0,mse,0.003898631766805487,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,0,0,0.0012879371643066406,output_1,mse,0.039999999999999925,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,1,1,0.0015361309051513672,output_0,mse,0.0682603212373587,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,1,1,0.0015361309051513672,output_1,mse,0.33999999999999975,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,2,2,0.0012950897216796875,output_0,mse,0.003898631766805487,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,2,2,0.0012950897216796875,output_1,mse,0.039999999999999925,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,3,3,0.001583099365234375,output_0,mse,0.003898631766805487,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,3,3,0.001583099365234375,output_1,mse,0.039999999999999925,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,4,4,0.0013380050659179688,output_0,mse,0.0682603212373587,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1,4,4,0.0013380050659179688,output_1,mse,0.3400000000000004,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,0,0,0.008682966232299805,output_0,mse,0.0038986317668054885,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,0,0,0.008682966232299805,output_1,mse,0.039999999999999904,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,1,1,0.013389110565185547,output_0,mse,0.06826032123735867,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,1,1,0.013389110565185547,output_1,mse,0.33999999999999975,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,2,2,0.013552188873291016,output_0,mse,0.0038986317668054885,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,2,2,0.013552188873291016,output_1,mse,0.039999999999999904,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,3,3,0.00913691520690918,output_0,mse,0.0038986317668054885,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,3,3,0.00913691520690918,output_1,mse,0.039999999999999904,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,4,4,0.008488893508911133,output_0,mse,0.06826032123735867,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,10,4,4,0.008488893508911133,output_1,mse,0.3400000000000004,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,0,0,0.11445307731628418,output_0,mse,0.003898631766805478,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,0,0,0.11445307731628418,output_1,mse,0.04000000000000006,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,1,1,0.08468508720397949,output_0,mse,0.06826032123735881,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,1,1,0.08468508720397949,output_1,mse,0.3400000000000004,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,2,2,0.08058691024780273,output_0,mse,0.003898631766805478,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,2,2,0.08058691024780273,output_1,mse,0.04000000000000006,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,3,3,0.08154487609863281,output_0,mse,0.003898631766805478,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,3,3,0.08154487609863281,output_1,mse,0.04000000000000006,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,4,4,0.08096599578857422,output_0,mse,0.06826032123735881,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,100,4,4,0.08096599578857422,output_1,mse,0.3400000000000004,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,0,0,0.8090147972106934,output_0,mse,0.003898631766805478,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,0,0,0.8090147972106934,output_1,mse,0.04000000000000006,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,1,1,0.80759596824646,output_0,mse,0.06826032123735881,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,1,1,0.80759596824646,output_1,mse,0.3400000000000004,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,2,2,0.7922680377960205,output_0,mse,0.003898631766805478,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,2,2,0.7922680377960205,output_1,mse,0.04000000000000006,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,3,3,0.807811975479126,output_0,mse,0.003898631766805478,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,3,3,0.807811975479126,output_1,mse,0.04000000000000006,0.5830951894845304,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,4,4,0.7620048522949219,output_0,mse,0.06826032123735881,0.162439024390244,empirical_measured_runs,1000,ok,
+slam,slam.si,original example,smc,ssi,1000,4,4,0.7620048522949219,output_1,mse,0.3400000000000004,0.5830951894845304,empirical_measured_runs,1000,ok,

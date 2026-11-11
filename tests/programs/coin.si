@@ -1,0 +1,10 @@
+let xt <- beta (1., 1.) in
+let () = observe (bernoulli (xt), true) in
+let () = observe (bernoulli (xt), true) in
+let () = observe (bernoulli (xt), true) in
+let () = observe (bernoulli (xt), true) in
+let () = observe (bernoulli (xt), true) in
+let () = observe (bernoulli (xt), true) in
+let () = observe (bernoulli (xt), true) in
+let () = observe (bernoulli (xt), true) in
+xt

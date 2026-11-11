@@ -1,0 +1,36 @@
+(*
+x - sample
+alt - sample
+other - symbolic
+invq - sample
+invr - symbolic
+*)
+
+val preprocess_data = fun entry -> 
+  let x_obs = List.hd(List.tl(List.tl(List.tl(entry)))) in
+  let alt_obs = List.hd(List.tl(List.tl(List.tl(List.tl(entry))))) in
+  (x_obs, alt_obs)
+in
+
+val step = fun ((x_obs, alt_obs), (xs,alts,q,r)) ->
+  let sample x <- gaussian(List.hd(xs),q) in
+  let sample alt <- gaussian(List.hd(alts),q) in
+  let symbolic other <- gamma(1.,10.) in
+  let v = if (alt < 5) then (r + (1/other)) else (r) in
+  let () = observe(gaussian(x,v),x_obs) in
+  let () = observe(gaussian(alt,v),alt_obs) in
+  let () = resample() in
+  (cons(x, xs), cons(alt, alts), q, r)
+in
+
+let data = List.map(preprocess_data, File.read("data/data.csv")) in
+
+let sample invq <- gamma(1.,1.) in
+let symbolic invr <- gamma(1.,1.) in
+let q = 1/invq in
+let r = 1/invr in
+let (xs,alts,q,r) = 
+  fold(step,data,([0.],[0.], q,r)) in
+let xs = List.tl(List.rev(xs)) in
+let alts = List.tl(List.rev(alts)) in
+(xs, alts, q, r)

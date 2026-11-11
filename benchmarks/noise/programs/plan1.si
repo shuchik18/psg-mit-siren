@@ -1,0 +1,31 @@
+(*
+x - symbolic
+invq - symbolic
+invr - sample
+*)
+
+val preprocess_data = fun entry -> List.hd(List.tl(entry)) in
+
+val step = fun (zobs, (xs, invq, invr)) ->
+  let prev_x = List.hd(xs) in
+
+  let h = 2. in
+  let f = 1.001 in
+
+  let symbolic x <- gaussian(f * prev_x, 1/invq) in
+  let () = observe(gaussian(h*x, 1/invr), zobs) in
+  
+  let () = resample() in
+
+  (cons(x, xs), invq, invr)
+in
+
+let data = List.map(preprocess_data, File.read("data/processed_data.csv")) in
+
+let symbolic invq <- gamma (1., 1.) in
+let sample invr <- gamma (1., 1.) in
+let x0 = 0. in
+
+let (xs, invq, invr) = fold(step, data, ([x0], invq, invr)) in
+let xs = List.tl(List.rev(xs)) in
+(xs, 1/invq, 1/invr)

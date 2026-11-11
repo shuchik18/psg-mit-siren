@@ -1,0 +1,1028 @@
+{
+  "n_plans": 32,
+  "n_vars": 5,
+  "smc": {
+    "ssi": {
+      "plan": {
+        "0": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4585578441619873
+        },
+        "1": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4564225673675537
+        },
+        "2": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46276164054870605
+        },
+        "3": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4584009647369385
+        },
+        "4": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4596226215362549
+        },
+        "5": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4596586227416992
+        },
+        "6": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4637429714202881
+        },
+        "7": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4583306312561035
+        },
+        "8": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46137332916259766
+        },
+        "9": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46076202392578125
+        },
+        "10": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4589729309082031
+        },
+        "11": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45789265632629395
+        },
+        "12": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45786070823669434
+        },
+        "13": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46250128746032715
+        },
+        "14": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45468568801879883
+        },
+        "15": {
+          "true_satisfied": true,
+          "analysis_time": 0.4669198989868164,
+          "infer_satisfied": true
+        },
+        "16": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4529592990875244
+        },
+        "17": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45546627044677734
+        },
+        "18": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45300984382629395
+        },
+        "19": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4622657299041748
+        },
+        "20": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4594075679779053
+        },
+        "21": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45786356925964355
+        },
+        "22": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4575479030609131
+        },
+        "23": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46001505851745605
+        },
+        "24": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4645102024078369
+        },
+        "25": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4579141139984131
+        },
+        "26": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46613574028015137
+        },
+        "27": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4571075439453125
+        },
+        "28": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46291422843933105
+        },
+        "29": {
+          "true_satisfied": true,
+          "analysis_time": 0.45459675788879395,
+          "infer_satisfied": true
+        },
+        "30": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4658689498901367
+        },
+        "31": {
+          "true_satisfied": true,
+          "analysis_time": 0.45636677742004395,
+          "infer_satisfied": true
+        }
+      },
+      "n_true_satisfied": 3,
+      "n_inferred_satisfied": 3,
+      "n_satisfied_tp": 3,
+      "n_satisfied_fp": 0,
+      "n_satisfied_fn": 0,
+      "n_satisfied_tn": 29
+    },
+    "ds": {
+      "plan": {
+        "0": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4614255428314209
+        },
+        "1": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4640238285064697
+        },
+        "2": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45502424240112305
+        },
+        "3": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4593491554260254
+        },
+        "4": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46167492866516113
+        },
+        "5": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45911264419555664
+        },
+        "6": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4542257785797119
+        },
+        "7": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46065807342529297
+        },
+        "8": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4546506404876709
+        },
+        "9": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45956873893737793
+        },
+        "10": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45548415184020996
+        },
+        "11": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45937061309814453
+        },
+        "12": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4570577144622803
+        },
+        "13": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.47183942794799805
+        },
+        "14": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45612311363220215
+        },
+        "15": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4665415287017822
+        },
+        "16": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4607701301574707
+        },
+        "17": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45600390434265137
+        },
+        "18": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46698713302612305
+        },
+        "19": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45551633834838867
+        },
+        "20": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46938419342041016
+        },
+        "21": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4596436023712158
+        },
+        "22": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4582638740539551
+        },
+        "23": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45605921745300293
+        },
+        "24": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46038055419921875
+        },
+        "25": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45728516578674316
+        },
+        "26": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.462801456451416
+        },
+        "27": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4589540958404541
+        },
+        "28": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.459977388381958
+        },
+        "29": {
+          "true_satisfied": true,
+          "analysis_time": 0.45867252349853516,
+          "infer_satisfied": true
+        },
+        "30": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4611482620239258
+        },
+        "31": {
+          "true_satisfied": true,
+          "analysis_time": 0.45831942558288574,
+          "infer_satisfied": true
+        }
+      },
+      "n_true_satisfied": 2,
+      "n_inferred_satisfied": 2,
+      "n_satisfied_tp": 2,
+      "n_satisfied_fp": 0,
+      "n_satisfied_fn": 0,
+      "n_satisfied_tn": 30
+    },
+    "bp": {
+      "plan": {
+        "0": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45768237113952637
+        },
+        "1": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45435166358947754
+        },
+        "2": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4554617404937744
+        },
+        "3": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4603102207183838
+        },
+        "4": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4526641368865967
+        },
+        "5": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46309447288513184
+        },
+        "6": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46347641944885254
+        },
+        "7": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45894336700439453
+        },
+        "8": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4559659957885742
+        },
+        "9": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4541950225830078
+        },
+        "10": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46008777618408203
+        },
+        "11": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4591665267944336
+        },
+        "12": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45806455612182617
+        },
+        "13": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45748353004455566
+        },
+        "14": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4572272300720215
+        },
+        "15": {
+          "true_satisfied": true,
+          "analysis_time": 0.45240187644958496,
+          "infer_satisfied": true
+        },
+        "16": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4569568634033203
+        },
+        "17": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.456223726272583
+        },
+        "18": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45974230766296387
+        },
+        "19": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46262073516845703
+        },
+        "20": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4569876194000244
+        },
+        "21": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4566042423248291
+        },
+        "22": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46146202087402344
+        },
+        "23": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45813894271850586
+        },
+        "24": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45859622955322266
+        },
+        "25": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4579615592956543
+        },
+        "26": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.459672212600708
+        },
+        "27": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45802760124206543
+        },
+        "28": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4577162265777588
+        },
+        "29": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4529993534088135
+        },
+        "30": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4564816951751709
+        },
+        "31": {
+          "true_satisfied": true,
+          "analysis_time": 0.46001458168029785,
+          "infer_satisfied": true
+        }
+      },
+      "n_true_satisfied": 2,
+      "n_inferred_satisfied": 2,
+      "n_satisfied_tp": 2,
+      "n_satisfied_fp": 0,
+      "n_satisfied_fn": 0,
+      "n_satisfied_tn": 30
+    }
+  },
+  "mh": {
+    "ssi": {
+      "plan": {
+        "0": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4595341682434082
+        },
+        "1": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45867371559143066
+        },
+        "2": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45777106285095215
+        },
+        "3": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4591052532196045
+        },
+        "4": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46080851554870605
+        },
+        "5": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4579174518585205
+        },
+        "6": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4587702751159668
+        },
+        "7": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4540736675262451
+        },
+        "8": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.460345983505249
+        },
+        "9": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.47170329093933105
+        },
+        "10": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4606814384460449
+        },
+        "11": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4612128734588623
+        },
+        "12": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46056246757507324
+        },
+        "13": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46041440963745117
+        },
+        "14": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46541881561279297
+        },
+        "15": {
+          "true_satisfied": true,
+          "analysis_time": 0.46082091331481934,
+          "infer_satisfied": true
+        },
+        "16": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46360039710998535
+        },
+        "17": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4643890857696533
+        },
+        "18": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45957136154174805
+        },
+        "19": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46024370193481445
+        },
+        "20": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4594402313232422
+        },
+        "21": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45781683921813965
+        },
+        "22": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4557511806488037
+        },
+        "23": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46044301986694336
+        },
+        "24": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46199965476989746
+        },
+        "25": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46542787551879883
+        },
+        "26": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46328258514404297
+        },
+        "27": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4606592655181885
+        },
+        "28": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46791839599609375
+        },
+        "29": {
+          "true_satisfied": true,
+          "analysis_time": 0.45916056632995605,
+          "infer_satisfied": true
+        },
+        "30": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46117472648620605
+        },
+        "31": {
+          "true_satisfied": true,
+          "analysis_time": 0.4607229232788086,
+          "infer_satisfied": true
+        }
+      },
+      "n_true_satisfied": 3,
+      "n_inferred_satisfied": 3,
+      "n_satisfied_tp": 3,
+      "n_satisfied_fp": 0,
+      "n_satisfied_fn": 0,
+      "n_satisfied_tn": 29
+    },
+    "ds": {
+      "plan": {
+        "0": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46172571182250977
+        },
+        "1": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4556400775909424
+        },
+        "2": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4616572856903076
+        },
+        "3": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4586186408996582
+        },
+        "4": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4618222713470459
+        },
+        "5": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.459458589553833
+        },
+        "6": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4609365463256836
+        },
+        "7": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46237945556640625
+        },
+        "8": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4573018550872803
+        },
+        "9": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4568190574645996
+        },
+        "10": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45989489555358887
+        },
+        "11": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45500731468200684
+        },
+        "12": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4610912799835205
+        },
+        "13": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45990848541259766
+        },
+        "14": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45957040786743164
+        },
+        "15": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46444272994995117
+        },
+        "16": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.453904390335083
+        },
+        "17": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45664024353027344
+        },
+        "18": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45326662063598633
+        },
+        "19": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4576711654663086
+        },
+        "20": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45648813247680664
+        },
+        "21": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4580202102661133
+        },
+        "22": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4600989818572998
+        },
+        "23": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45830607414245605
+        },
+        "24": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45531630516052246
+        },
+        "25": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4614377021789551
+        },
+        "26": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4608945846557617
+        },
+        "27": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4616889953613281
+        },
+        "28": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45813655853271484
+        },
+        "29": {
+          "true_satisfied": true,
+          "analysis_time": 0.460951566696167,
+          "infer_satisfied": true
+        },
+        "30": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4536724090576172
+        },
+        "31": {
+          "true_satisfied": true,
+          "analysis_time": 0.4620962142944336,
+          "infer_satisfied": true
+        }
+      },
+      "n_true_satisfied": 2,
+      "n_inferred_satisfied": 2,
+      "n_satisfied_tp": 2,
+      "n_satisfied_fp": 0,
+      "n_satisfied_fn": 0,
+      "n_satisfied_tn": 30
+    },
+    "bp": {
+      "plan": {
+        "0": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4582479000091553
+        },
+        "1": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45771098136901855
+        },
+        "2": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45656847953796387
+        },
+        "3": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4583275318145752
+        },
+        "4": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45810699462890625
+        },
+        "5": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4632995128631592
+        },
+        "6": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45993876457214355
+        },
+        "7": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45920467376708984
+        },
+        "8": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4602694511413574
+        },
+        "9": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45694899559020996
+        },
+        "10": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4601562023162842
+        },
+        "11": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4521660804748535
+        },
+        "12": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46475887298583984
+        },
+        "13": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4576559066772461
+        },
+        "14": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4622538089752197
+        },
+        "15": {
+          "true_satisfied": true,
+          "analysis_time": 0.46277379989624023,
+          "infer_satisfied": true
+        },
+        "16": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4599134922027588
+        },
+        "17": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4555346965789795
+        },
+        "18": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4584505558013916
+        },
+        "19": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45498085021972656
+        },
+        "20": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4583311080932617
+        },
+        "21": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45673632621765137
+        },
+        "22": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4585280418395996
+        },
+        "23": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45842909812927246
+        },
+        "24": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46210551261901855
+        },
+        "25": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4622931480407715
+        },
+        "26": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46069955825805664
+        },
+        "27": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.4592275619506836
+        },
+        "28": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.45348167419433594
+        },
+        "29": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.46027350425720215
+        },
+        "30": {
+          "true_satisfied": false,
+          "infer_satisfied": false,
+          "analysis_time": 0.459399938583374
+        },
+        "31": {
+          "true_satisfied": true,
+          "analysis_time": 0.45447278022766113,
+          "infer_satisfied": true
+        }
+      },
+      "n_true_satisfied": 2,
+      "n_inferred_satisfied": 2,
+      "n_satisfied_tp": 2,
+      "n_satisfied_fp": 0,
+      "n_satisfied_fn": 0,
+      "n_satisfied_tn": 30
+    }
+  }
+}

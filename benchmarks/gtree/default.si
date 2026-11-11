@@ -1,0 +1,21 @@
+val preprocess_data = fun entry -> 
+  let obs = List.tl(List.tl(entry)) in
+  let obs_b = List.hd(obs) in
+  let obs_a = List.hd(List.tl(obs)) in
+  (obs_b, obs_a)
+in
+
+val step = fun ((obs_b, obs_a), (a, bs)) ->
+  let b <- gaussian(a, 10) in
+  let () = observe(gaussian(b, 1000), obs_b) in
+  let () = observe(gaussian(a, 1000), obs_a) in
+  let () = resample() in
+  (a, cons(b, bs))
+in
+
+(* observations *)
+let data = List.map(preprocess_data, File.read("programs/data/processed_data.csv")) in
+
+let a <- gaussian(0, 100) in
+let (a, bs) = fold(step, data, (a, [])) in
+(a, List.rev(bs))

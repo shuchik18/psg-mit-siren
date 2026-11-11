@@ -1,0 +1,31 @@
+val preprocess_data = fun entry ->
+  let left_wheel_rate = List.hd(entry) in
+  let right_wheel_rate = List.hd(List.tl(entry)) in
+  (left_wheel_rate, right_wheel_rate)
+in
+
+val step = fun ((left_wheel_rate, right_wheel_rate), (start, vs, os)) ->
+  let prev_o = List.hd(os) in
+  let prev_v = List.hd(vs) in
+
+  let wb = 2.0 in
+  let sensor_err_l = 1.0 in
+  let sensor_err_r = 0.95 in
+
+  let omega_noise = if start then 2500. else 1. in
+  let velocity_noise = if start then 2500. else 1. in
+
+  let symbolic omega <- gaussian(prev_o, omega_noise) in
+  let symbolic velocity <- gaussian(prev_v, velocity_noise) in
+  let () = observe(gaussian(velocity - (wb * omega), sensor_err_l), left_wheel_rate) in
+  let () = observe(gaussian(velocity + (wb * omega), sensor_err_r), right_wheel_rate) in
+
+  (false, cons(velocity, vs), cons(omega, os))
+in
+
+let data = [(201.79897693, -32.779256728), (206.423095274, -31.9258541027), (207.900486767, -31.5701198412), (210.298303206, -32.0217383347), (206.010088006, -31.3001236526), (207.230561559, -35.9919009388), (207.802456076, -34.6068500903) ]in
+
+let (_, vs, os) = fold(step, data, (true, [0.], [0.])) in
+let vs = List.tl(List.rev(vs)) in
+let os = List.tl(List.rev(os)) in
+(vs, os)

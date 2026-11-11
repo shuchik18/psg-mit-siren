@@ -1,0 +1,132 @@
+{
+  "benchmark": "wheels",
+  "data_file": {
+    "smc": "data/processed_data.csv",
+    "mh": "data/processed_data2.csv"
+  },
+  "true_vars": {
+    "smc": [
+      [
+        "velocity",
+        [
+          86.8096578547
+        ]
+      ],
+      [
+        "omega",
+        [
+          -66.4197088549
+        ]
+      ]
+    ],
+    "mh": [
+      [
+        "velocity",
+        [
+          87.7291407022
+        ]
+      ],
+      [
+        "omega",
+        [
+          -61.6925049263
+        ]
+      ]
+    ]
+  },
+  "base_y": 3,
+  "base_x": 4,
+  "n_y": 1,
+  "n_x": 2,
+  "legend_width": 2,
+  "plans": {
+    "0": {
+      "plan": {
+        "omega": "symbolic",
+        "velocity": "symbolic"
+      },
+      "satisfiable": {
+        "smc": {
+          "ssi": true,
+          "ds": false,
+          "bp": false
+        },
+        "mh": {
+          "ssi": true,
+          "ds": false,
+          "bp": false
+        }
+      }
+    },
+    "1": {
+      "plan": {
+        "omega": "symbolic",
+        "velocity": "sample"
+      },
+      "satisfiable": {
+        "smc": {
+          "ssi": true,
+          "ds": true,
+          "bp": true
+        },
+        "mh": {
+          "ssi": true,
+          "ds": true,
+          "bp": true
+        }
+      }
+    },
+    "2": {
+      "plan": {
+        "omega": "sample",
+        "velocity": "symbolic"
+      },
+      "satisfiable": {
+        "smc": {
+          "ssi": true,
+          "ds": true,
+          "bp": true
+        },
+        "mh": {
+          "ssi": true,
+          "ds": true,
+          "bp": true
+        }
+      }
+    },
+    "3": {
+      "plan": {
+        "omega": "sample",
+        "velocity": "sample"
+      },
+      "satisfiable": {
+        "smc": {
+          "ssi": true,
+          "ds": true,
+          "bp": true
+        },
+        "mh": {
+          "ssi": true,
+          "ds": true,
+          "bp": true
+        }
+      }
+    }
+  },
+  "variables": [
+    "omega",
+    "velocity"
+  ],
+  "default": {
+    "smc": {
+      "ssi": "0",
+      "ds": "3",
+      "bp": "2"
+    },
+    "mh": {
+      "ssi": "0",
+      "ds": "3",
+      "bp": "2"
+    }
+  }
+}

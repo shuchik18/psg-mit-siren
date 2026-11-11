@@ -1,0 +1,67 @@
+(*
+cell - sample
+wheel_slip - sample
+*)
+
+val preprocess_data = fun entry -> 
+  let obs = List.hd(List.tl(entry)) in
+  let obs = if obs = 1 then true else false in
+  let cmd = List.hd(List.tl(List.tl(entry))) in
+  (obs, cmd)
+in
+
+val bernoulli_priors = fun i ->
+  let sample cell <- bernoulli(0.5) in
+  cell
+in
+
+val move = fun (max_pos, prev_x, cmd) ->
+  let wheel_noise = 0.1 in
+
+  let sample wheel_slip <- bernoulli(wheel_noise) in
+  let cmd2 = 
+    if (prev_x + cmd) < 0 then 
+      0
+    else if max_pos < (prev_x + cmd) then
+      0
+    else
+      cmd 
+  in
+  let x = if wheel_slip then prev_x else (prev_x + cmd2) in
+  x
+in
+
+val find = fun (curr, (n, i, found, res)) -> 
+  let found2 = if n = i then true else found in
+  let res2 = if n = i then curr else res in
+  (n, i+1, found2, res2)
+in
+
+val get = fun (map, n) ->
+  (* Assumes n is within range *)
+  let (_, _, _, res) = fold(find, map, (n, 0, false, -1)) in
+  res
+in
+
+val step = fun ((obs, cmd), (max_pos, map, xs)) ->
+  let prev_x = if List.len(xs) = 0 then 0 else List.hd(xs) in
+
+  let sensor_noise = 0.1 in
+
+  let x = move(max_pos, prev_x, cmd) in
+  let o = get(map, x) in
+
+  let () = observe(bernoulli(if o then (1 - sensor_noise) else sensor_noise), obs) in
+
+  let () = resample() in
+  (max_pos, map, cons(x, xs))
+in
+
+let data = List.map(preprocess_data, File.read("data/processed_data.csv")) in
+
+let max_pos = 10 in
+let map = List.map(bernoulli_priors, List.range(0, max_pos + 1)) in
+
+let (_, map, xs) = fold(step, data, (max_pos, map, [])) in
+let x = List.hd(xs) in
+(map, x)
